@@ -18,8 +18,7 @@ export default function ProjectsSidebar({onStartAddProject, projects, onSelectPr
                     } else {
                         cssClasses += " text-stone-400";
                     }
-
-
+                    
                     return (
                         <li key={project.id}>
                             <button className={cssClasses}
